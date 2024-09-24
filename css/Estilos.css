@@ -1,0 +1,49 @@
+/* Estilos globales para la página */
+body {
+    background-color: #e6dfcb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de los contenedores o elementos con borde */
+.cuadrante {
+    border: 2px solid #384958;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo de los botones */
+button, .button {
+    background-color: #384958;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .button:hover {
+    background-color: #2f3e4b;
+}
+
+/*!* Opcional: Estilo para otros elementos con bordes *!*/
+/*input, textarea {*/
+/*    border: 2px solid #384958;*/
+/*    padding: 10px;*/
+/*    border-radius: 5px;*/
+/*    width: 100%;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*input:focus, textarea:focus {*/
+/*    outline: none;*/
+/*    border-color: #2f3e4b;*/
+/*}*/
